@@ -337,7 +337,7 @@ if (tipoJogo == 'in'){
                 var ingresso = 1320;
                 var dolar = 4.1;
                 var valorInicial = ingresso * dolar;
-                console.log('Valor do ingresso: R$ ',new Intl.NumberFormat('pt-BR', formatNumber).format(valorInicial))
+                console.log('Valor do ingresso:',new Intl.NumberFormat('pt-BR', formatNumber).format(valorInicial))
                 var quantidadeIngressos = Number(prompt('Informe quantos ingressos deseja:'))
                 var valorTotal = quantidadeIngressos * valorInicial;
                 console.log('Valor total:',new Intl.NumberFormat('pt-BR', formatNumber).format(valorTotal))
@@ -347,7 +347,7 @@ if (tipoJogo == 'in'){
                 var ingresso = 880;
                 var dolar = 4.1;
                 var valorInicial = ingresso * dolar;
-                console.log('Valor do ingresso: R$ ',new Intl.NumberFormat('pt-BR', formatNumber).format(valorInicial))
+                console.log('Valor do ingresso:',new Intl.NumberFormat('pt-BR', formatNumber).format(valorInicial))
                 var quantidadeIngressos = Number(prompt('Informe quantos ingressos deseja:'))
                 var valorTotal = quantidadeIngressos * valorInicial;
                 console.log('Valor total:',new Intl.NumberFormat('pt-BR', formatNumber).format(valorTotal))
@@ -357,7 +357,7 @@ if (tipoJogo == 'in'){
                 var ingresso = 550;
                 var dolar = 4.1;
                 var valorInicial = ingresso * dolar;
-                console.log('Valor do ingresso: R$ ',new Intl.NumberFormat('pt-BR', formatNumber).format(valorInicial))
+                console.log('Valor do ingresso:',new Intl.NumberFormat('pt-BR', formatNumber).format(valorInicial))
                 var quantidadeIngressos = Number(prompt('Informe quantos ingressos deseja:'))
                 var valorTotal = quantidadeIngressos * valorInicial;
                 console.log('Valor total:',new Intl.NumberFormat('pt-BR', formatNumber).format(valorTotal))
@@ -367,7 +367,7 @@ if (tipoJogo == 'in'){
                 var ingresso = 220;
                 var dolar = 4.1;
                 var valorInicial = ingresso * dolar;
-                console.log('Valor do ingresso: R$ ',new Intl.NumberFormat('pt-BR', formatNumber).format(valorInicial))
+                console.log('Valor do ingresso:',new Intl.NumberFormat('pt-BR', formatNumber).format(valorInicial))
                 var quantidadeIngressos = Number(prompt('Informe quantos ingressos deseja:'))
                 var valorTotal = quantidadeIngressos * valorInicial;
                 console.log('Valor total:',new Intl.NumberFormat('pt-BR', formatNumber).format(valorTotal))
@@ -386,7 +386,7 @@ if (tipoJogo == 'in'){
                 var ingresso = 660;
                 var dolar = 4.1;
                 var valorInicial = ingresso * dolar;
-                console.log('Valor do ingresso: R$ ',new Intl.NumberFormat('pt-BR', formatNumber).format(valorInicial))
+                console.log('Valor do ingresso:',new Intl.NumberFormat('pt-BR', formatNumber).format(valorInicial))
                 var quantidadeIngressos = Number(prompt('Informe quantos ingressos deseja:'))
                 var valorTotal = quantidadeIngressos * valorInicial;
                 console.log('Valor total:',new Intl.NumberFormat('pt-BR', formatNumber).format(valorTotal))
@@ -396,7 +396,7 @@ if (tipoJogo == 'in'){
                 var ingresso = 440;
                 var dolar = 4.1;
                 var valorInicial = ingresso * dolar;
-                console.log('Valor do ingresso: R$ ',new Intl.NumberFormat('pt-BR', formatNumber).format(valorInicial))
+                console.log('Valor do ingresso:',new Intl.NumberFormat('pt-BR', formatNumber).format(valorInicial))
                 var quantidadeIngressos = Number(prompt('Informe quantos ingressos deseja:'))
                 var valorTotal = quantidadeIngressos * valorInicial;
                 console.log('Valor total:',new Intl.NumberFormat('pt-BR', formatNumber).format(valorTotal))
@@ -406,7 +406,7 @@ if (tipoJogo == 'in'){
                 var ingresso = 330;
                 var dolar = 4.1;
                 var valorInicial = ingresso * dolar;
-                console.log('Valor do ingresso: R$ ',new Intl.NumberFormat('pt-BR', formatNumber).format(valorInicial))
+                console.log('Valor do ingresso:',new Intl.NumberFormat('pt-BR', formatNumber).format(valorInicial))
                 var quantidadeIngressos = Number(prompt('Informe quantos ingressos deseja:'))
                 var valorTotal = quantidadeIngressos * valorInicial;
                 console.log('Valor total:',new Intl.NumberFormat('pt-BR', formatNumber).format(valorTotal))
@@ -416,7 +416,7 @@ if (tipoJogo == 'in'){
                 var ingresso = 170;
                 var dolar = 4.1;
                 var valorInicial = ingresso * dolar;
-                console.log('Valor do ingresso: R$ ',new Intl.NumberFormat('pt-BR', formatNumber).format(valorInicial))
+                console.log('Valor do ingresso:',new Intl.NumberFormat('pt-BR', formatNumber).format(valorInicial))
                 var quantidadeIngressos = Number(prompt('Informe quantos ingressos deseja:'))
                 var valorTotal = quantidadeIngressos * valorInicial;
                 console.log('Valor total:',new Intl.NumberFormat('pt-BR', formatNumber).format(valorTotal))
@@ -434,7 +434,7 @@ if (tipoJogo == 'in'){
                 var ingresso = 1980;
                 var dolar = 4.1;
                 var valorInicial = ingresso * dolar;
-                console.log('Valor do ingresso: R$ ',new Intl.NumberFormat('pt-BR', formatNumber).format(valorInicial))
+                console.log('Valor do ingresso:',new Intl.NumberFormat('pt-BR', formatNumber).format(valorInicial))
                 var quantidadeIngressos = Number(prompt('Informe quantos ingressos deseja:'))
                 var valorTotal = quantidadeIngressos * valorInicial;
                 console.log('Valor total:',new Intl.NumberFormat('pt-BR', formatNumber).format(valorTotal))
@@ -444,7 +444,7 @@ if (tipoJogo == 'in'){
                 var ingresso = 1320;
                 var dolar = 4.1;
                 var valorInicial = ingresso * dolar;
-                console.log('Valor do ingresso: R$ ',new Intl.NumberFormat('pt-BR', formatNumber).format(valorInicial))
+                console.log('Valor do ingresso:',new Intl.NumberFormat('pt-BR', formatNumber).format(valorInicial))
                 var quantidadeIngressos = Number(prompt('Informe quantos ingressos deseja:'))
                 var valorTotal = quantidadeIngressos * valorInicial;
                 console.log('Valor total:',new Intl.NumberFormat('pt-BR', formatNumber).format(valorTotal))
@@ -454,7 +454,7 @@ if (tipoJogo == 'in'){
                 var ingresso = 880;
                 var dolar = 4.1;
                 var valorInicial = ingresso * dolar;
-                console.log('Valor do ingresso: R$ ',new Intl.NumberFormat('pt-BR', formatNumber).format(valorInicial))
+                console.log('Valor do ingresso:',new Intl.NumberFormat('pt-BR', formatNumber).format(valorInicial))
                 var quantidadeIngressos = Number(prompt('Informe quantos ingressos deseja:'))
                 var valorTotal = quantidadeIngressos * valorInicial;
                 console.log('Valor total:',new Intl.NumberFormat('pt-BR', formatNumber).format(valorTotal))
@@ -464,7 +464,7 @@ if (tipoJogo == 'in'){
                 var ingresso = 330;
                 var dolar = 4.1;
                 var valorInicial = ingresso * dolar;
-                console.log('Valor do ingresso: R$ ',new Intl.NumberFormat('pt-BR', formatNumber).format(valorInicial))
+                console.log('Valor do ingresso:',new Intl.NumberFormat('pt-BR', formatNumber).format(valorInicial))
                 var quantidadeIngressos = Number(prompt('Informe quantos ingressos deseja:'))
                 var valorTotal = quantidadeIngressos * valorInicial;
                 console.log('Valor total:',new Intl.NumberFormat('pt-BR', formatNumber).format(valorTotal))
@@ -488,7 +488,7 @@ else if (tipoJogo == 'do'){
             case 1:
                 console.log('---Valores---')
                 var ingresso = 1320;
-                console.log('Valor do ingresso: R$ ',new Intl.NumberFormat('pt-BR', formatNumber).format(ingresso));
+                console.log('Valor do ingresso:',new Intl.NumberFormat('pt-BR', formatNumber).format(ingresso));
                 var quantidadeIngressos = Number(prompt('Informe quantos ingressos deseja:'))
                 var valorTotal = ingresso * quantidadeIngressos;
                 console.log('Valor total:',new Intl.NumberFormat('pt-BR', formatNumber).format(valorTotal));
@@ -496,7 +496,7 @@ else if (tipoJogo == 'do'){
             case 2:
                 console.log('---Valores---')
                 var ingresso = 880;
-                console.log('Valor do ingresso: R$ ',new Intl.NumberFormat('pt-BR', formatNumber).format(ingresso));
+                console.log('Valor do ingresso:',new Intl.NumberFormat('pt-BR', formatNumber).format(ingresso));
                 var quantidadeIngressos = Number(prompt('Informe quantos ingressos deseja:'))
                 var valorTotal = ingresso * quantidadeIngressos;
                 console.log('Valor total:',new Intl.NumberFormat('pt-BR', formatNumber).format(valorTotal));
@@ -504,7 +504,7 @@ else if (tipoJogo == 'do'){
             case 3:
                 console.log('---Valores---')
                 var ingresso = 550;
-                console.log('Valor do ingresso: R$ ',new Intl.NumberFormat('pt-BR', formatNumber).format(ingresso));
+                console.log('Valor do ingresso:',new Intl.NumberFormat('pt-BR', formatNumber).format(ingresso));
                 var quantidadeIngressos = Number(prompt('Informe quantos ingressos deseja:'))
                 var valorTotal = ingresso * quantidadeIngressos;
                 console.log('Valor total:',new Intl.NumberFormat('pt-BR', formatNumber).format(valorTotal));
@@ -512,7 +512,7 @@ else if (tipoJogo == 'do'){
             case 4:
                 console.log('---Valores---')
                 var ingresso = 220;
-                console.log('Valor do ingresso: R$ ',new Intl.NumberFormat('pt-BR', formatNumber).format(ingresso));
+                console.log('Valor do ingresso:',new Intl.NumberFormat('pt-BR', formatNumber).format(ingresso));
                 var quantidadeIngressos = Number(prompt('Informe quantos ingressos deseja:'))
                 var valorTotal = ingresso * quantidadeIngressos;
                 console.log('Valor total:',new Intl.NumberFormat('pt-BR', formatNumber).format(valorTotal));
@@ -528,7 +528,7 @@ else if (tipoJogo == 'do'){
             case 1:
                 console.log('---Valores---')
                 var ingresso = 660;
-                console.log('Valor do ingresso: R$ ',new Intl.NumberFormat('pt-BR', formatNumber).format(ingresso));
+                console.log('Valor do ingresso:',new Intl.NumberFormat('pt-BR', formatNumber).format(ingresso));
                 var quantidadeIngressos = Number(prompt('Informe quantos ingressos deseja:'))
                 var valorTotal = ingresso * quantidadeIngressos;
                 console.log('Valor total:',new Intl.NumberFormat('pt-BR', formatNumber).format(valorTotal));
@@ -536,7 +536,7 @@ else if (tipoJogo == 'do'){
             case 2:
                 console.log('---Valores---')
                 var ingresso = 440;
-                console.log('Valor do ingresso: R$ ',new Intl.NumberFormat('pt-BR', formatNumber).format(ingresso));
+                console.log('Valor do ingresso:',new Intl.NumberFormat('pt-BR', formatNumber).format(ingresso));
                 var quantidadeIngressos = Number(prompt('Informe quantos ingressos deseja:'))
                 var valorTotal = ingresso * quantidadeIngressos;
                 console.log('Valor total:',new Intl.NumberFormat('pt-BR', formatNumber).format(valorTotal));
@@ -544,7 +544,7 @@ else if (tipoJogo == 'do'){
             case 3:
                 console.log('---Valores---')
                 var ingresso = 330;
-                console.log('Valor do ingresso: R$ ',new Intl.NumberFormat('pt-BR', formatNumber).format(ingresso));
+                console.log('Valor do ingresso:',new Intl.NumberFormat('pt-BR', formatNumber).format(ingresso));
                 var quantidadeIngressos = Number(prompt('Informe quantos ingressos deseja:'))
                 var valorTotal = ingresso * quantidadeIngressos;
                 console.log('Valor total:',new Intl.NumberFormat('pt-BR', formatNumber).format(valorTotal));
@@ -552,7 +552,7 @@ else if (tipoJogo == 'do'){
             case 4:
                 console.log('---Valores---')
                 var ingresso = 170;
-                console.log('Valor do ingresso: R$ ',new Intl.NumberFormat('pt-BR', formatNumber).format(ingresso));
+                console.log('Valor do ingresso:',new Intl.NumberFormat('pt-BR', formatNumber).format(ingresso));
                 var quantidadeIngressos = Number(prompt('Informe quantos ingressos deseja:'))
                 var valorTotal = ingresso * quantidadeIngressos;
                 console.log('Valor total:',new Intl.NumberFormat('pt-BR', formatNumber).format(valorTotal));
@@ -568,7 +568,7 @@ else if (tipoJogo == 'do'){
             case 1:
                 console.log('---Valores---')
                 var ingresso = 1980;
-                console.log('Valor do ingresso: R$ ',new Intl.NumberFormat('pt-BR', formatNumber).format(ingresso));
+                console.log('Valor do ingresso:',new Intl.NumberFormat('pt-BR', formatNumber).format(ingresso));
                 var quantidadeIngressos = Number(prompt('Informe quantos ingressos deseja:'))
                 var valorTotal = ingresso * quantidadeIngressos;
                 console.log('Valor total:',new Intl.NumberFormat('pt-BR', formatNumber).format(valorTotal));
@@ -576,7 +576,7 @@ else if (tipoJogo == 'do'){
             case 2:
                 console.log('---Valores---')
                 var ingresso = 1320;
-                console.log('Valor do ingresso: R$ ',new Intl.NumberFormat('pt-BR', formatNumber).format(ingresso));
+                console.log('Valor do ingresso:',new Intl.NumberFormat('pt-BR', formatNumber).format(ingresso));
                 var quantidadeIngressos = Number(prompt('Informe quantos ingressos deseja:'))
                 var valorTotal = ingresso * quantidadeIngressos;
                 console.log('Valor total:',new Intl.NumberFormat('pt-BR', formatNumber).format(valorTotal));
@@ -584,7 +584,7 @@ else if (tipoJogo == 'do'){
             case 3:
                 console.log('---Valores---')
                 var ingresso = 880;
-                console.log('Valor do ingresso: R$ ',new Intl.NumberFormat('pt-BR', formatNumber).format(ingresso));
+                console.log('Valor do ingresso:',new Intl.NumberFormat('pt-BR', formatNumber).format(ingresso));
                 var quantidadeIngressos = Number(prompt('Informe quantos ingressos deseja:'))
                 var valorTotal = ingresso * quantidadeIngressos;
                 console.log('Valor total:',new Intl.NumberFormat('pt-BR', formatNumber).format(valorTotal));
@@ -592,7 +592,7 @@ else if (tipoJogo == 'do'){
             case 4:
                 console.log('---Valores---')
                 var ingresso = 330;
-                console.log('Valor do ingresso: R$ ',new Intl.NumberFormat('pt-BR', formatNumber).format(ingresso));
+                console.log('Valor do ingresso:',new Intl.NumberFormat('pt-BR', formatNumber).format(ingresso));
                 var quantidadeIngressos = Number(prompt('Informe quantos ingressos deseja:'))
                 var valorTotal = ingresso * quantidadeIngressos;
                 console.log('Valor total:',new Intl.NumberFormat('pt-BR', formatNumber).format(valorTotal));
