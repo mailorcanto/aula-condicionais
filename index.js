@@ -325,6 +325,25 @@ const formatNumber = {
 
 var tipoJogo = prompt("Informe 'in' para jogo internacional e 'do' para jogo doméstico");
 
+function dolares (ingresso,quantidadeIngressos){
+    console.log('---Valores---')
+    var ingresso;
+    var dolar = 4.1;
+    var valorInicial = ingresso * dolar;
+    console.log('Valor do ingresso:',new Intl.NumberFormat('pt-BR', formatNumber).format(valorInicial))
+    var valorTotal = quantidadeIngressos * valorInicial;
+    console.log('Valor total:',new Intl.NumberFormat('pt-BR', formatNumber).format(valorTotal))   
+}
+
+function reais (ingresso,quantidadeIngressos){
+    console.log('---Valores---')
+    var ingresso = 1320;
+    console.log('Valor do ingresso:',new Intl.NumberFormat('pt-BR', formatNumber).format(ingresso));
+    var valorTotal = ingresso * quantidadeIngressos;
+    console.log('Valor total:',new Intl.NumberFormat('pt-BR', formatNumber).format(valorTotal));
+}
+
+
 if (tipoJogo == 'in'){
 
     var etapaJogo = prompt("Informe 'sf' para semi-final, 'dt' para terceiro lugar ou 'fi' para final");
@@ -333,44 +352,20 @@ if (tipoJogo == 'in'){
         var categoria = Number(prompt('Informe categoria (1, 2, 3 ou 4):'))
         switch (categoria){
             case 1:
-                console.log('---Valores---')
-                var ingresso = 1320;
-                var dolar = 4.1;
-                var valorInicial = ingresso * dolar;
-                console.log('Valor do ingresso:',new Intl.NumberFormat('pt-BR', formatNumber).format(valorInicial))
                 var quantidadeIngressos = Number(prompt('Informe quantos ingressos deseja:'))
-                var valorTotal = quantidadeIngressos * valorInicial;
-                console.log('Valor total:',new Intl.NumberFormat('pt-BR', formatNumber).format(valorTotal))
+                dolares(1320,quantidadeIngressos);
                 break
             case 2:
-                console.log('---Valores---')
-                var ingresso = 880;
-                var dolar = 4.1;
-                var valorInicial = ingresso * dolar;
-                console.log('Valor do ingresso:',new Intl.NumberFormat('pt-BR', formatNumber).format(valorInicial))
                 var quantidadeIngressos = Number(prompt('Informe quantos ingressos deseja:'))
-                var valorTotal = quantidadeIngressos * valorInicial;
-                console.log('Valor total:',new Intl.NumberFormat('pt-BR', formatNumber).format(valorTotal))
+                dolares(880,quantidadeIngressos);
                 break           
             case 3:
-                console.log('---Valores---')
-                var ingresso = 550;
-                var dolar = 4.1;
-                var valorInicial = ingresso * dolar;
-                console.log('Valor do ingresso:',new Intl.NumberFormat('pt-BR', formatNumber).format(valorInicial))
                 var quantidadeIngressos = Number(prompt('Informe quantos ingressos deseja:'))
-                var valorTotal = quantidadeIngressos * valorInicial;
-                console.log('Valor total:',new Intl.NumberFormat('pt-BR', formatNumber).format(valorTotal))
+                dolares(550,quantidadeIngressos);
                 break
             case 4:
-                console.log('---Valores---')
-                var ingresso = 220;
-                var dolar = 4.1;
-                var valorInicial = ingresso * dolar;
-                console.log('Valor do ingresso:',new Intl.NumberFormat('pt-BR', formatNumber).format(valorInicial))
                 var quantidadeIngressos = Number(prompt('Informe quantos ingressos deseja:'))
-                var valorTotal = quantidadeIngressos * valorInicial;
-                console.log('Valor total:',new Intl.NumberFormat('pt-BR', formatNumber).format(valorTotal))
+                dolares(220,quantidadeIngressos);
                 break
             default:
                 console.log('Informe categoria entre 1 e 4')
@@ -382,44 +377,20 @@ if (tipoJogo == 'in'){
         var categoria = Number(prompt('Informe categoria (1, 2, 3 ou 4):'))
         switch (categoria){
             case 1:
-                console.log('---Valores---')
-                var ingresso = 660;
-                var dolar = 4.1;
-                var valorInicial = ingresso * dolar;
-                console.log('Valor do ingresso:',new Intl.NumberFormat('pt-BR', formatNumber).format(valorInicial))
                 var quantidadeIngressos = Number(prompt('Informe quantos ingressos deseja:'))
-                var valorTotal = quantidadeIngressos * valorInicial;
-                console.log('Valor total:',new Intl.NumberFormat('pt-BR', formatNumber).format(valorTotal))
+                dolares(660,quantidadeIngressos);
                 break
             case 2:
-                console.log('---Valores---')
-                var ingresso = 440;
-                var dolar = 4.1;
-                var valorInicial = ingresso * dolar;
-                console.log('Valor do ingresso:',new Intl.NumberFormat('pt-BR', formatNumber).format(valorInicial))
                 var quantidadeIngressos = Number(prompt('Informe quantos ingressos deseja:'))
-                var valorTotal = quantidadeIngressos * valorInicial;
-                console.log('Valor total:',new Intl.NumberFormat('pt-BR', formatNumber).format(valorTotal))
+                dolares(440,quantidadeIngressos);
                 break                
             case 3:
-                console.log('---Valores---')
-                var ingresso = 330;
-                var dolar = 4.1;
-                var valorInicial = ingresso * dolar;
-                console.log('Valor do ingresso:',new Intl.NumberFormat('pt-BR', formatNumber).format(valorInicial))
                 var quantidadeIngressos = Number(prompt('Informe quantos ingressos deseja:'))
-                var valorTotal = quantidadeIngressos * valorInicial;
-                console.log('Valor total:',new Intl.NumberFormat('pt-BR', formatNumber).format(valorTotal))
+                dolares(330,quantidadeIngressos);
                 break
             case 4:
-                console.log('---Valores---')
-                var ingresso = 170;
-                var dolar = 4.1;
-                var valorInicial = ingresso * dolar;
-                console.log('Valor do ingresso:',new Intl.NumberFormat('pt-BR', formatNumber).format(valorInicial))
                 var quantidadeIngressos = Number(prompt('Informe quantos ingressos deseja:'))
-                var valorTotal = quantidadeIngressos * valorInicial;
-                console.log('Valor total:',new Intl.NumberFormat('pt-BR', formatNumber).format(valorTotal))
+                dolares(170,quantidadeIngressos);
                 break
             default:
                 console.log('Informe categoria entre 1 e 4')                    
@@ -430,44 +401,20 @@ if (tipoJogo == 'in'){
         var categoria = Number(prompt('Informe categoria (1, 2, 3 ou 4):'))
         switch (categoria){
             case 1:
-                console.log('---Valores---')
-                var ingresso = 1980;
-                var dolar = 4.1;
-                var valorInicial = ingresso * dolar;
-                console.log('Valor do ingresso:',new Intl.NumberFormat('pt-BR', formatNumber).format(valorInicial))
                 var quantidadeIngressos = Number(prompt('Informe quantos ingressos deseja:'))
-                var valorTotal = quantidadeIngressos * valorInicial;
-                console.log('Valor total:',new Intl.NumberFormat('pt-BR', formatNumber).format(valorTotal))
+                dolares(1980,quantidadeIngressos);
                 break
             case 2:
-                console.log('---Valores---')
-                var ingresso = 1320;
-                var dolar = 4.1;
-                var valorInicial = ingresso * dolar;
-                console.log('Valor do ingresso:',new Intl.NumberFormat('pt-BR', formatNumber).format(valorInicial))
                 var quantidadeIngressos = Number(prompt('Informe quantos ingressos deseja:'))
-                var valorTotal = quantidadeIngressos * valorInicial;
-                console.log('Valor total:',new Intl.NumberFormat('pt-BR', formatNumber).format(valorTotal))
+                dolares(1320,quantidadeIngressos);
                 break                
             case 3:
-                console.log('---Valores---')
-                var ingresso = 880;
-                var dolar = 4.1;
-                var valorInicial = ingresso * dolar;
-                console.log('Valor do ingresso:',new Intl.NumberFormat('pt-BR', formatNumber).format(valorInicial))
                 var quantidadeIngressos = Number(prompt('Informe quantos ingressos deseja:'))
-                var valorTotal = quantidadeIngressos * valorInicial;
-                console.log('Valor total:',new Intl.NumberFormat('pt-BR', formatNumber).format(valorTotal))
+                dolares(880,quantidadeIngressos);
                 break
             case 4:
-                console.log('---Valores---')
-                var ingresso = 330;
-                var dolar = 4.1;
-                var valorInicial = ingresso * dolar;
-                console.log('Valor do ingresso:',new Intl.NumberFormat('pt-BR', formatNumber).format(valorInicial))
                 var quantidadeIngressos = Number(prompt('Informe quantos ingressos deseja:'))
-                var valorTotal = quantidadeIngressos * valorInicial;
-                console.log('Valor total:',new Intl.NumberFormat('pt-BR', formatNumber).format(valorTotal))
+                dolares(330,quantidadeIngressos);
                 break
             default:
                 console.log('Informe categoria entre 1 e 4')                    
@@ -486,36 +433,20 @@ else if (tipoJogo == 'do'){
         var categoria = Number(prompt('Informe categoria (1, 2, 3 ou 4):'))
         switch (categoria){
             case 1:
-                console.log('---Valores---')
-                var ingresso = 1320;
-                console.log('Valor do ingresso:',new Intl.NumberFormat('pt-BR', formatNumber).format(ingresso));
                 var quantidadeIngressos = Number(prompt('Informe quantos ingressos deseja:'))
-                var valorTotal = ingresso * quantidadeIngressos;
-                console.log('Valor total:',new Intl.NumberFormat('pt-BR', formatNumber).format(valorTotal));
+                reais(1320,quantidadeIngressos);
                 break
             case 2:
-                console.log('---Valores---')
-                var ingresso = 880;
-                console.log('Valor do ingresso:',new Intl.NumberFormat('pt-BR', formatNumber).format(ingresso));
                 var quantidadeIngressos = Number(prompt('Informe quantos ingressos deseja:'))
-                var valorTotal = ingresso * quantidadeIngressos;
-                console.log('Valor total:',new Intl.NumberFormat('pt-BR', formatNumber).format(valorTotal));
+                reais(880,quantidadeIngressos);
                 break                
             case 3:
-                console.log('---Valores---')
-                var ingresso = 550;
-                console.log('Valor do ingresso:',new Intl.NumberFormat('pt-BR', formatNumber).format(ingresso));
                 var quantidadeIngressos = Number(prompt('Informe quantos ingressos deseja:'))
-                var valorTotal = ingresso * quantidadeIngressos;
-                console.log('Valor total:',new Intl.NumberFormat('pt-BR', formatNumber).format(valorTotal));
+                reais(550,quantidadeIngressos);
                 break
             case 4:
-                console.log('---Valores---')
-                var ingresso = 220;
-                console.log('Valor do ingresso:',new Intl.NumberFormat('pt-BR', formatNumber).format(ingresso));
                 var quantidadeIngressos = Number(prompt('Informe quantos ingressos deseja:'))
-                var valorTotal = ingresso * quantidadeIngressos;
-                console.log('Valor total:',new Intl.NumberFormat('pt-BR', formatNumber).format(valorTotal));
+                reais(220,quantidadeIngressos);
                 break
             default:
                 console.log('Informe categoria entre 1 e 4')                    
@@ -526,36 +457,20 @@ else if (tipoJogo == 'do'){
         var categoria = Number(prompt('Informe categoria (1, 2, 3 ou 4):'))
         switch (categoria){
             case 1:
-                console.log('---Valores---')
-                var ingresso = 660;
-                console.log('Valor do ingresso:',new Intl.NumberFormat('pt-BR', formatNumber).format(ingresso));
                 var quantidadeIngressos = Number(prompt('Informe quantos ingressos deseja:'))
-                var valorTotal = ingresso * quantidadeIngressos;
-                console.log('Valor total:',new Intl.NumberFormat('pt-BR', formatNumber).format(valorTotal));
+                reais(660,quantidadeIngressos);
                 break
             case 2:
-                console.log('---Valores---')
-                var ingresso = 440;
-                console.log('Valor do ingresso:',new Intl.NumberFormat('pt-BR', formatNumber).format(ingresso));
                 var quantidadeIngressos = Number(prompt('Informe quantos ingressos deseja:'))
-                var valorTotal = ingresso * quantidadeIngressos;
-                console.log('Valor total:',new Intl.NumberFormat('pt-BR', formatNumber).format(valorTotal));
+                reais(440,quantidadeIngressos);
                 break                
             case 3:
-                console.log('---Valores---')
-                var ingresso = 330;
-                console.log('Valor do ingresso:',new Intl.NumberFormat('pt-BR', formatNumber).format(ingresso));
                 var quantidadeIngressos = Number(prompt('Informe quantos ingressos deseja:'))
-                var valorTotal = ingresso * quantidadeIngressos;
-                console.log('Valor total:',new Intl.NumberFormat('pt-BR', formatNumber).format(valorTotal));
+                reais(330,quantidadeIngressos);
                 break
             case 4:
-                console.log('---Valores---')
-                var ingresso = 170;
-                console.log('Valor do ingresso:',new Intl.NumberFormat('pt-BR', formatNumber).format(ingresso));
                 var quantidadeIngressos = Number(prompt('Informe quantos ingressos deseja:'))
-                var valorTotal = ingresso * quantidadeIngressos;
-                console.log('Valor total:',new Intl.NumberFormat('pt-BR', formatNumber).format(valorTotal));
+                reais(170,quantidadeIngressos);
                 break
             default:
                 console.log('Informe categoria entre 1 e 4')                    
@@ -566,36 +481,20 @@ else if (tipoJogo == 'do'){
         var categoria = Number(prompt('Informe categoria (1, 2, 3 ou 4):'))
         switch (categoria){
             case 1:
-                console.log('---Valores---')
-                var ingresso = 1980;
-                console.log('Valor do ingresso:',new Intl.NumberFormat('pt-BR', formatNumber).format(ingresso));
                 var quantidadeIngressos = Number(prompt('Informe quantos ingressos deseja:'))
-                var valorTotal = ingresso * quantidadeIngressos;
-                console.log('Valor total:',new Intl.NumberFormat('pt-BR', formatNumber).format(valorTotal));
+                reais(1980,quantidadeIngressos);
                 break
             case 2:
-                console.log('---Valores---')
-                var ingresso = 1320;
-                console.log('Valor do ingresso:',new Intl.NumberFormat('pt-BR', formatNumber).format(ingresso));
                 var quantidadeIngressos = Number(prompt('Informe quantos ingressos deseja:'))
-                var valorTotal = ingresso * quantidadeIngressos;
-                console.log('Valor total:',new Intl.NumberFormat('pt-BR', formatNumber).format(valorTotal));
+                reais(1320,quantidadeIngressos);
                 break                
             case 3:
-                console.log('---Valores---')
-                var ingresso = 880;
-                console.log('Valor do ingresso:',new Intl.NumberFormat('pt-BR', formatNumber).format(ingresso));
                 var quantidadeIngressos = Number(prompt('Informe quantos ingressos deseja:'))
-                var valorTotal = ingresso * quantidadeIngressos;
-                console.log('Valor total:',new Intl.NumberFormat('pt-BR', formatNumber).format(valorTotal));
+                reais(880,quantidadeIngressos);
                 break
             case 4:
-                console.log('---Valores---')
-                var ingresso = 330;
-                console.log('Valor do ingresso:',new Intl.NumberFormat('pt-BR', formatNumber).format(ingresso));
                 var quantidadeIngressos = Number(prompt('Informe quantos ingressos deseja:'))
-                var valorTotal = ingresso * quantidadeIngressos;
-                console.log('Valor total:',new Intl.NumberFormat('pt-BR', formatNumber).format(valorTotal));
+                var ingresso = (330,quantidadeIngressos);
                 break
             default:
                 console.log('Informe categoria entre 1 e 4')                    
@@ -609,6 +508,7 @@ else if (tipoJogo == 'do'){
 else {
     console.log("ERRO! Digite 'in' para jogo internacional ou 'do' para jogo doméstico");
 }
+
 
 console.log('---Dados da compra---') 
 
@@ -641,8 +541,6 @@ else {
 
 console.log('Categoria: '+categoria);
 console.log('Quantidade de Ingressos: '+quantidadeIngressos)
-
-
 
 
 
