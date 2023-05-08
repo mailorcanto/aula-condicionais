@@ -337,7 +337,7 @@ function dolares (ingresso,quantidadeIngressos){
 
 function reais (ingresso,quantidadeIngressos){
     console.log('---Valores---')
-    var ingresso = 1320;
+    var ingresso;
     console.log('Valor do ingresso:',new Intl.NumberFormat('pt-BR', formatNumber).format(ingresso));
     var valorTotal = ingresso * quantidadeIngressos;
     console.log('Valor total:',new Intl.NumberFormat('pt-BR', formatNumber).format(valorTotal));
