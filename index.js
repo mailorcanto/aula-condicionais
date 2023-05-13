@@ -84,22 +84,26 @@ comparacoes();
 //● Charmander (Fogo)
 //● Squirtle (Água)
 
-let pokemon = prompt('Digite seu Pokémon');
+var pokemon = Number(prompt(`Escolha um Pokémon: 
+1 - Bulbasauro 
+2 - Charmander 
+3 - Squirtle`));
 
 switch (pokemon){
-    case 'Bulbasauro':
-        console.log('Planta e Veneno')
+    case 1:
+        console.log('Tipo: Planta e Veneno');
         break
-    case 'Charmander':
-        console.log('Fogo')
+    case 2:
+        console.log('Tipo: Fogo');
         break
-    case 'Squirtle':
-        console.log('Água')
+    case 3:
+        console.log('Tipo: Água');
         break
     default:
-        console.log('Não encontrado')
-        break        
+        console.log('Número sem Pokémon correspondente')
+        break
 }
+
 */
 
 /*
